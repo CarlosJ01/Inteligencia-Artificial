@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+
+\usepackage[pages=some]{background}
+\backgroundsetup{
+    scale=1, 
+    color=black,
+    opacity=1,
+    angle=0,
+    contents={
+        \includegraphics[width=\paperwidth,height=\paperheight]{portada/Fondo_TecNM.png}
+    }
+}
+
+\begin{document}
+    \title{Practica5Percepción}
+    \author{Carlos Jahir Castro Cázares}
+    \date{12 de Abril de 2021}
+    
+    \BgThispage
+    \begin{titlepage}
+        \centering
+            {\includegraphics[width=0.5\textwidth]{portada/logo_ITM.png}\par}
+            \vspace{1cm}
+            {\bfseries\Large TECNOLOGICO NACIONAL DE MEXICO \par}
+            {\bfseries\Large INSTITUTO TECNOLOGICO DE MORELIA \par}
+            {\bfseries\large “José María Morelos y Pavón” \par}
+            \vspace{1cm}
+            {\bfseries\LARGE Inteligencia Artificial \par}
+            \vspace{2cm}
+            {\bfseries\LARGE Practica 5 Percepción \par}
+            \vspace{2cm}
+            {\bfseries\Large Carlos Jahir Castro Cázares \par}
+            {\bfseries\Large 17120151 \par}
+            {\bfseries\Large Ingeniería en Sistemas Computacionales
+            \par}
+            \vspace{1cm}
+            {\bfseries\Large 12 de Abril de 2021 \par}
+    \end{titlepage}
+    
+    \section{Ensayo del documental IA IBM}
+    El documental empieza con una perspectiva de la inteligencia artificial, que se muestra como esta podrá tener un impacto en el futuro, donde todas las áreas donde se desarrolla el ser humano pueden ser afectadas como lo son la guerra, la medicina, la salud, la conducción, nuestras capacidades etc. Y también como esta puede ser un peligro para nosotros como sociedad. Esta es la introducción a este documental.
+    \newline\newline
+    Posteriormente pasamos al inicio del mismo donde empiezan preguntándose qué es la inteligencia y si esta solo está presente en organismos biológicos o también puede estar artificialmente en una maquina; Esta se define como la capacidad de lograr objetivos complejos, pero, aunque la inteligencia artificial no tenga un conceso claro ya que son un conjunto de prácticas, podemos decir que la IA solo es inteligencia que no es biológica. Pero se podría decir que cuando una maquina tiene la capacidad de sentir, comprender y aprender sobre su entorno esta se considera artificialmente inteligente.
+    \newline\newline
+    Entender el lenguaje de las personas es uno de los retos más complejos. Como siempre se ha visto en la ciencia ficción el cómo las computadoras pueden entendernos a la perfección, pero esto estaba muy alejado de la realidad ya que la comprensión del lenguaje de las personas con tantas ambigüedades y con reglas no específicas. Le es muy difícil a una computadora que comprende acciones específicas; Algo que es fácil para nosotros los humanos puede ser muy complejo para las maquinas. Por ejemplo, tenemos a Watson una computadora/IA de IBM, que fue diseñada para la comprensión del lenguaje natural, para un programa de televisión sobre preguntas. Que para esto la computadora analiza las frases, compara con sus bases de datos, conjunta su información por la que es más confiable y selecciona la que tiene mayor posibilidad de acertar todo esto en solo unos pocos milisegundos, lo cual el hiso ganar a los campeones de estos juegos fácilmente. Pero estas tecnologías no solo se hicieron para ganar juegos si no que nos podrían ayudar en el futuro para la resolución de problemas; Como se pudo ver en el siguiente proyecto de procesamiento de lenguaje natural donde una IA puede debatir con una persona, haciendo que esta analice la pregunta busque en una intensidad de artículos argumentos en pro y contra del tema y este de argumentos sólidos para poder seguir debatiendo, todo esto en lo que sigue procesando los argumentos del oponente y siguiendo buscando más argumentos; Todo esto nos podría ayudar a la toma de decisiones importantes en las empresas. 
+    \newpage
+    Otra área de aplicación y una de las más conocidas por el público en general es la de los autos autónomos que igualmente que la anterior son una de las cosas que pasaron de la ciencia ficción a la realidad donde gracias a una IA un automóvil pude conducir en caminos haciendo uso de sensores que le indican el estado del entorno que tiene, y esta tiene que analizar toda esta información en fracciones de segundo para poder tomar decisiones correctas para seguir sin ningún incidente. Pero esto no es todo perfecto estas tecnologías están en pañales y no son todavía como las vemos en series y películas ya que no reconocen el contexto de las situaciones que se presentan, pero gracias a los humanos que pueden indicar estas acciones y el Aprendizaje Profundo estas IA pueden aprender a conducir como un humano y esto podría cambiar el entorno de las ciudades donde vivimos.
+    \newline\newline
+    Pero todas estas aplicaciones nos llevan a una pregunta cómo es que aprenden las computadoras; Esto empezó con una computadora que aprendió a jugar damas, aprendiendo de los errores y de cuales combinaciones son ganadoras o perdedoras. De otra manera la computadora Deep blue que aprendió a jugar ajedrez venció al campeón del mundo, los juegos siempre han sido grandes maneras de probar las inteligencias artificiales, pero el aumento en la capacidad de procesamiento, los datos y nuevas formas de algoritmos han permitido hacer grandes avances en la IA. Por consecuencia hoy en día con la cantidad masiva y rápida que se generen datos en la red, una IA podría analizar estos datos y darles sentido en tan solo unos segundos, algo que esta sobre las capacidades humanas como lo hace Spotify, Facebook o Google y ahora una IA como DeepMind de Google pude aprender y ser un experto a jugar juegos solo siendo un auto didacta que aprende por si misma con el aprendizaje automático como lo haría un humano en una vida por solo unas semanas.
+    \newline\newline
+    Pero con este aprendizaje de las máquinas y solo siendo maquinas que no necesitan descansar ni comer, una pregunta viene a muchas personas esta podrá quitarle su trabajo; Muchos trabajos se han creado y desaparecido a través de la historia y la nueva revolución tecnológica no es la excepción. En esto se espera que unos 10 años las maquinas replanen a muchos humanos en trabajos monótonos que nadie quiere hacer y a partir de esto surjan nuevos empleos que integren tanto a la IA como a las personas, como son los robots que no está programados para realizar una sola tarea si no que con su IA pueda aprender a hacer varias cosas y así el ser humano y las maquinas trabajen juntos. Pero esto nos lleva a un pensamiento que es que si estos robots pudieran ser consientes o si pudiéramos descifrar la conciencia del ser humano para pasarla a una maquina esto sería bueno o creeríamos que tenemos una especie de esclavos. Pero estas son cuestiones que actualmente solo están en la ciencia ficción.
+    \newpage
+    Por otro lado, tenemos otro sector que podría ser cambiado como lo es el de la educación; Como lo es cuando una IA puede ayudar a los niños que está en etapa de crecimiento a aprender. Adaptándose a su forma de hacerlo y dándole un trato personalizado donde se refuerzan sus debilidades. Además que esto no solo se queda en los niños de kínder sino que también pude usarse en universitarios para servir como un tutor virtual que se personalice a su manera de aprender y ayudar a sus profesores a saber cuáles son los temas más difíciles para los estudiantes, mejorando de esta manera la educación pero esto los llevo a otra pregunta esta IA nos podría ayudar a mejorarnos físicamente; Ahora nos presentan el ejemplo de cómo con ayuda de la IA podemos mejorar la percepción que tenemos de nuestro entorno por ejemplo hacer que una persona ciega pueda percibir su entorno a través de vibraciones, GPS y sensores que nos ayudaran a mejor nuestros sentidos y así que la IA trabaje tanto físicamente como mentalmente para mejorarnos a nosotros mismos.
+    \newline\newline
+    Pero esto lleva a otra cuestión la de la privacidad de las personas. Aquí tenemos las cuestiones de reconocimiento facial donde en lugares como china ya se puede estar siguiendo a un ciudadano solo con verlo desde una cámara donde esta analiza el rostro de una persona y lo compara con una base de datos para obtener su historial, además de algo muy controvertido donde esto se puede usar solo para saber si una persona es un delincuente solo con las información de su rostro pero como lo dijo un entrevistado la tecnología es neutral así que el objetivo de esta debe de ser la de ayudarnos a resolver problemas, pero esto no quita el aspecto ético del uso de esta. Por último, se menciona el cómo estos sistemas tendrán mucha información valiosa deberemos deshacerlos mas robustos frente ataques informáticos.
+    \newline\newline
+    Seguidamente tenemos la cuestión de como la IA ayuda en la medicina; Para esto el análisis de grandes volúmenes de información medica y encontrar las relaciones que un humano en toda su vida pudiera leer y procesar. Esto ayuda a investigadores de la enfermedad de parkinson a investigar medicamentos existentes para ser probados como futura cura para esta enfermedad, así se pudo decir que el usar la inteligencia humana con la inteligencia artificial ayuda a ambas partes a ser mas productivos y mas eficientes en la búsqueda de la salud humana.
+    \newline\newline
+    Pero todos estos avances nos llevan a una pregunta si esta llamada IA puede avanzar a algo mucho mayor una inteligencia general; Esto es a lo que se le llama la singularidad tecnológica donde las IA alcancen tanto la inteligencia humana que podrán inclusive superarnos. Pero esto nos lleva a cuestionarnos si una verdadera inteligencia artificial al nivel de la humana pude ser construida por nosotros y si esta tendrá los mismos objetivos que nosotros ya que con el avance del procesamiento, esto es de preocupar para algunas personas. Pero esto puede estar muy lejos de la realidad actualmente o estar solo en la ciencia ficción, pero como dijo el investigador al final la IA solo es una herramienta que nos ayuda a la resolución de problemas el como usemos esta y con qué propósito es una cuestión de humanos. 
+\end{document}

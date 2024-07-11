@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+
+\usepackage[pages=some]{background}
+\backgroundsetup{
+    scale=1, 
+    color=black,
+    opacity=1,
+    angle=0,
+    contents={
+        \includegraphics[width=\paperwidth,height=\paperheight]{portada/Fondo_TecNM.png}
+    }
+}
+
+\begin{document}
+    \title{Practica 6 Agentes Inteligentes}
+    \author{Carlos Jahir Castro Cázares}
+    \date{12 de Abril de 2021}
+    
+    \BgThispage
+    \begin{titlepage}
+        \centering
+            {\includegraphics[width=0.5\textwidth]{portada/logo_ITM.png}\par}
+            \vspace{1cm}
+            {\bfseries\Large TECNOLOGICO NACIONAL DE MEXICO \par}
+            {\bfseries\Large INSTITUTO TECNOLOGICO DE MORELIA \par}
+            {\bfseries\large “José María Morelos y Pavón” \par}
+            \vspace{1cm}
+            {\bfseries\LARGE Inteligencia Artificial \par}
+            \vspace{2cm}
+            {\bfseries\LARGE Practica 6 Agentes Inteligentes \par}
+            \vspace{2cm}
+            {\bfseries\Large Carlos Jahir Castro Cázares \par}
+            {\bfseries\Large 17120151 \par}
+            {\bfseries\Large Ingeniería en Sistemas Computacionales
+            \par}
+            \vspace{1cm}
+            {\bfseries\Large 14 de Abril de 2021 \par}
+    \end{titlepage}
+    
+    \begin{center}
+	    {\huge \bf Cuadrado Mágico}
+	    \line(1,0){300}
+    \end{center}
+    Un cuadrado mágico es una tabla de grado primario donde se dispone de una serie de números enteros en un cuadrado o matriz de forma tal que la suma de los números por columnas, filas y diagonales principales sea la misma. Usualmente los números empleados para rellenar las casillas son consecutivos, de 1 a n², siendo n el número de columnas y filas del cuadrado mágico.
+    
+\section{Formula para encontrar el numero mágico dada cualquier serie.}
+La formula para calcular la \textbf{constante mágica} es con la siguiente ecuación; Calculando la suma, sabiendo que las filas a van de 1 a n:
+\begin{center}
+  {\includegraphics[width=1\textwidth]{img/Ecuacion.png}\par}
+\end{center}
+
+Si disponemos el conjunto de números en seis filas (ver tabla a la derecha), fácilmente se puede apreciar que las sumas en las distintas columnas han de ser necesariamente iguales, ya que los números se encuentran agrupados por pares tal y como estaban en el primer caso (compárese los pares de filas 1ª-6ª, 2ª-5ª y 3ª-4ª con la disposición original). Ahora sin embargo, por ser tres los pares de filas (n/2), la suma será:
+\begin{center}
+    {\includegraphics[width=0.3\textwidth]{img/Ecuacion02.png}\par}
+\end{center}
+\newline\newline\newline
+cantidad que se denomina constante mágica, y que en nuestro caso es n×(n² + 1)/2 = 6×(36 + 1)/2 = 111.cantidad que se denomina constante mágica, y que en nuestro caso es \textbf{n×(n² + 1)/2 = 6×(36 + 1)/2 = 111}.
+
+\section{Características que debe tener la Serie.}
+El orden de un cuadrado mágico es el número de renglones o el número de columnas que tiene. Así un cuadrado de 3 x 3 se dice que es de orden 3.
+\newline
+Al sumar los números de cualquier renglón, cualquier columna o cualquiera de las dos diagonales el resultado es el mismo, a este número se le llama constante mágica.
+\newline
+Usualmente los números empleados parar llenar las casillas son consecutivos, de 1 a N cuadrada, siendo N  el número de columnas y filas del cuadrado mágico.
+
+\section{Definir un proceso de solución para cualquier matriz impar}
+El ejemplo más sencillo es un cuadrado de orden 3, el más pequeño posible. Usaremos los números del 1 al 9. Empieza dibujando el esqueleto de tu cuadrado. Después añade casillas en todos los laterales, hasta formar un rombo. De esta forma:
+\begin{center}
+    {\includegraphics[width=0.3\textwidth]{img/Ejemplo cuadro 01.png}\par}
+\end{center}
+Ahora, empieza en el extremo superior con el 1 y coloca todas las cifras siguiendo las diagonales alternas formadas en el rombo. Observa que quedan casillas en blanco.
+\begin{center}
+    {\includegraphics[width=0.3\textwidth]{img/Ejemplo cuadro 02.png}\par}
+\end{center}
+Sólo te falta completar el cuadrado mágico. ¿De qué forma?. Tienes que “colocar” los números que están en las casillas exteriores del cuadrado, al lugar que les corresponde. Dentro!
+\begin{center}
+    {\includegraphics[width=0.3\textwidth]{img/Ejemplo cuadro 03.png}\par}
+\end{center}
+
+Programa en: \textbf{cuadro\_magico.py}
+\end{document}

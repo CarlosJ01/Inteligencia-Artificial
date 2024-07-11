@@ -1,0 +1,77 @@
+documentclass{article}
+usepackage[utf8]{inputenc}
+usepackage{natbib}
+usepackage{graphicx}
+
+usepackage[pages=some]{background}
+backgroundsetup{
+    scale=1, 
+    color=black,
+    opacity=1,
+    angle=0,
+    contents={
+        includegraphics[width=paperwidth,height=paperheight]{imgFondo TecNM.png}
+    }
+}
+
+title{Practica 2 Habilidades Cognitivas}
+author{Carlos Jahir Castro Cázares}
+date{23 de Marzo de 2021}
+
+begin{document}
+    BgThispage
+    begin{titlepage}
+        centering
+        {includegraphics[width=0.4textwidth]{imglogoITM.png}par}
+        vspace{1cm}
+        {bfseriesLarge TECNOLOGICO NACIONAL DE MEXICO par}
+        {bfseriesLarge INSTITUTO TECNOLOGICO DE MORELIA par}
+        {bfserieslarge “José María Morelos y Pavón” par}
+        vspace{2cm}
+        {bfseriesLarge Inteligencia Artificial par}
+        vspace{2cm}
+        {scshapeLARGE Practica 2 Habilidades Cognitivas par}
+        vspace{2cm}
+        {bfseriesLarge Carlos Jahir Castro Cázares par}
+        {bfseriesLarge 17120151 par}
+        {bfseriesLarge Ingeniería en Sistemas Computacionales
+        par}
+        vspace{1cm}
+        {bfseriesLarge 23 de Marzo de 2021 par}
+    end{titlepage}
+    
+    section{Acertijos}
+    Para resolver los acertijos por introspección, primeramente, analice los acertijos y posteriormente en papel anote las características mas importantes de cada uno y en este mismo resolví los acertijos.
+    
+    textbf{La madre de Jimmy tiene varios hijos, el primero se llama Abril, el segundo se llama Mayo, Cual es el nombre del tercero.}
+    Para este hice la relación entre Jimmy y su madre ya que dice que esta puede tener varios hijos, que incluye a Jimmy y a los demás y por la secuencia de los nombres de los hermanos nombrados como los meses se deduce que el nombre del tercero es textbf{Junio}, se podría deducir que es Jimmy pero al decir que su madre tiene varios hijos no se tiene seguro cuantos son.
+    
+    textbf{Un borracho dijo ’Si ayer fuese mañana, hoy sería Viernes’ ¿Qué día dijo esto el borracho}
+    Para esto primeramente se puse la relación entre los días sin importar su nombre, como lo es el ayer, hoy y mañana, después se invirtió el ayer por el mañana como lo dice el enunciado, después como lo dice al hoy se le asigna el día de viernes, por lo tanto, el día que esta después de ese es el sábado que se transforma en el ayer, y al regresar este a su posición original nos da que el sábado es el ayer y por lo tanto el día que se dijo es eltextbf{Domingo}.
+        
+    textbf{Un vaquero llega a un pueblo en Viernes, se queda 3 días y se va en Viernes ¿cómo hizo}
+    Para esto puse la relación que esta entre el vaquero y viernes, después se le suman los 3 dias que se quedo en el y termina diciendo que este se fue en viernes. Entonces analizando el contexto y la redacción del enunciado podemos ver que dice que fue y vino en viernes no que se fue y vino el textbf{viernes}, por lo que podemos decir que el transporte que uso se llama viernes, ya que esta en y no fue el.
+    
+    textbf{Tres hermanos viven en una casa son de veras diferentes; si quieresdistinguirlos, los tres se parecen. el primero no está ha de venir. elsegundo no está ya se fue. solo está el tercero, menor de todos; sinél, no existirian los otros Aun así, el tercero solo existe porque en elsegundo se convierte el primero si quieres mirarlo no ves mas que otrode sus hermanos.  Dime pues ¿los tres son uno, ¿ o solo dos, ¿oninguno si sabes cómo se llaman reconoceras tres soberanos juntosreinan en un país que ellos son. en eso son iguales.}
+    Para este acertijo igualmente anoté o extraje los atributos de los 3 hermanos y por lógica que se tiene el ser humano, deduje que los textbf{tres hermanos son uno mismo, estos son el paso del tiempo y el reino es el tiempo.}Esto lo deduje primeramente sacando los atributos que tienen cada hermano y sus relaciones con los demás, por lo que puedo decir que el primero es el futuro, el segundo el pasado y el tercero es el presente, ya que el ha de venir, ya se fue y uno no puede existir sin los otros tres.
+    
+    textbf{En una calle hay cinco casas, cada una de un color distinto. En cadacasa vive una persona de distinta nacionalidad. Cada dueño bebe unúnico tipo de bebida, fuma una sola marca de cigarrillos y tiene unamascota diferente a sus vecinos. A partir de las 15 pistas presentadasa continuación, la consigna que hay que responder es ¿Quién es eldueño del pez.}
+    begin{itemize}
+        item textbf{1. El británico vive en la casa roja.}
+        item textbf{2. El sueco tiene un perro como mascota.}
+        item textbf{3. El danés toma té.}
+        item textbf{4. El noruego vive en la primera casa.}
+        item textbf{5. El alemán fuma Prince.}
+        item textbf{6. La casa verde está inmediatamente a la izquierda de la blanca.}
+        item textbf{7. El dueño de la casa verde bebe café.}
+        item textbf{8. El propietario que fuma Pall Mall cría pájaros.}
+        item textbf{9. El dueño de la casa amarilla fuma Dunhill.}
+        item textbf{10. El hombre que vive en la casa del centro bebe leche.}
+        item textbf{11. El vecino que fuma Blends vive al lado del que tiene un gato.}
+        item textbf{12. El hombre que tiene un caballo vive al lado del que fuma Dunhill.}
+        item textbf{13. El propietario que fuma Bluemaster toma cerveza.}
+        item textbf{14. El vecino que fuma Blends viveal lado del que toma agua.}
+        item textbf{15. El noruego vive al lado de la casa azul.}
+    end{itemize}
+    Por ultimo para este acertijo primeramente se leyeron las pistas y se enlistaron todas las características que puede tener cada combinación de casas, posteriormente siguiendo las reglas dadas se siguió con la premisas y se creo una tabla con el numero de la casa de 1-5 como las columnas de estas a que estas son pistas que no dependen de otras y las características se ponen como las filas de las tablas esto nos dará al final las combinaciones que se crean, primero se llenan las celdas con la información de las pistas que nos dan información más detallada o la combinación de ambas. Posteriormente pasamos a un punto donde tenemos que decidir entre dos opciones y se siguen ambas hasta que una se atora y la otra sigue con la solución, posteriormente se siguen llenando las celadas con la información de los acertijos y descarte por que no queda otra opción. Finalmente sé llega a la solución que el textbf{Alemán es el dueño del pez.}
+end{document}

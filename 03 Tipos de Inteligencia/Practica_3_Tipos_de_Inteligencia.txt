@@ -1,0 +1,101 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+
+\usepackage[pages=some]{background}
+\backgroundsetup{
+    scale=1, 
+    color=black,
+    opacity=1,
+    angle=0,
+    contents={
+        \includegraphics[width=\paperwidth,height=\paperheight]{portada/Fondo_TecNM.png}
+    }
+}
+
+\begin{document}
+    \title{Practica 3 Tipos de Inteligencia.}
+    \author{Carlos Jahir Castro Cázares}
+    \date{25 de Marzo de 2021}
+    
+    \BgThispage
+    \begin{titlepage}
+        \centering
+            {\includegraphics[width=0.5\textwidth]{portada/logo_ITM.png}\par}
+            \vspace{1cm}
+            {\bfseries\Large TECNOLOGICO NACIONAL DE MEXICO \par}
+            {\bfseries\Large INSTITUTO TECNOLOGICO DE MORELIA \par}
+            {\bfseries\large “José María Morelos y Pavón” \par}
+            \vspace{1cm}
+            {\bfseries\LARGE Inteligencia Artificial \par}
+            \vspace{2cm}
+            {\bfseries\LARGE Practica 3 Tipos de Inteligencia \par}
+            \vspace{2cm}
+            {\bfseries\Large Carlos Jahir Castro Cázares \par}
+            {\bfseries\Large 17120151 \par}
+            {\bfseries\Large Ingeniería en Sistemas Computacionales
+            \par}
+            \vspace{1cm}
+            {\bfseries\Large 25 de Marzo de 2021 \par}
+    \end{titlepage}
+    
+    \section {TEORÍA DE LAS INTELIGENCIAS MÚLTIPLES}
+    La teoría de las inteligencias múltiples es un modelo de concepción de la mente propuesto en 1983 por el psicólogo estadounidense Howard Gardner, profesor de la Universidad de Harvard, para el que la inteligencia no es un conjunto unitario que agrupe diferentes capacidades específicas, sino que \textbf{la inteligencia es como una red de conjuntos autónomos relacionados entre sí.}
+    \newline
+    Gardner propuso que para el desarrollo de la vida uno necesita o hace uso de más de un tipo de inteligencia. Así pues, Gardner no entra en contradicción con la definición científica de la inteligencia, como la \textbf{capacidad de solucionar problemas o elaborar bienes valiosos.} Para Gardner, la inteligencia es un potencial biopsicológico de procesamiento de información que se puede activar en uno o más marcos culturales para resolver problemas o crear productos que tienen valor para dichos marcos; Por tanto, la teoría de las inteligencias múltiples no duda de la existencia del factor general de la inteligencia, lo que duda es la explicación de ella.
+    \newline
+    \section{TIPOS DE INTELIGENCIA}
+    Howard Gardner defiende que, así como hay muchos tipos de problemas que resolver, también hay muchos tipos de inteligencias, que se pueden adaptar reticularmente a su solución. Las inteligencias múltiples y las funciones diferentes de un individuo están vinculadas a ciertas partes del cerebro. 
+    \newline
+    La investigación de Howard Gardner ha logrado identificar y definir hasta \textbf{ocho tipos de inteligencia distintas}. Vamos a conocer de manera más detallada cada una de las inteligencias propuestas por la Teoría de las Inteligencias Múltiples de Gardner a continuación.
+    \newline
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.3]{img/inteligencias.jpg}
+    \end{figure}
+\subsection{Inteligencia lingüística}
+La capacidad de \textbf{dominar el lenguaje} y poder comunicarnos con los demás es transversal a todas las culturas. Desde pequeños aprendemos a usar el idioma materno para podernos comunicar de manera eficaz. La inteligencia lingüística no solo hace referencia a la habilidad para la comunicación oral, sino a otras formas de comunicarse como la escritura, la gestualidad, etc.
+\newline
+Quienes mejor dominan esta capacidad de comunicar tienen una inteligencia lingüística superior. Profesiones en las cuales destaca este tipo de inteligencia podrían ser políticos, escritores, poetas, periodistas, actores…
+\newline
+\subsection{Inteligencia lógico-matemática}
+Durante décadas, la inteligencia lógico-matemática fue considerada la inteligencia en bruto. Suponía el principal del concepto de inteligencia, y se empleaba como baremo para detectar cuán inteligente era una persona.
+\newline
+Como su propio nombre indica, este tipo de inteligencia se vincula a la capacidad para el \textbf{razonamiento lógico y la resolución de problemas matemáticos}. La rapidez para solucionar este tipo de problemas es el indicador que determina cuánta inteligencia lógico-matemática se tiene.
+Los célebres test de cociente intelectual (IQ) se fundamentan en este tipo de inteligencia y, en menor medida, en la inteligencia lingüística. Los científicos, economistas, académicos, ingenieros y matemáticos suelen destacar en esta clase de inteligencia. Asimismo, los ajedrecistas también requieren de capacidad lógica para desarrollar estrategias de juego mejores a las de su oponente, y a su vez anticipar sus movimientos.
+\newline
+\subsection{Inteligencia espacial}
+También conocida como inteligencia visual-espacial, es la habilidad que nos permite \textbf{observar el mundo y los objetos desde diferentes perspectivas}. En esta inteligencia destacan los ajedrecistas y los profesionales de las artes visuales (pintores, diseñadores, escultores…), así como los taxistas, que deben poseer un exquisito mapa mental de las ciudades por las que transitan.
+\newline
+Las personas que destacan en este tipo de inteligencia suelen tener capacidades que les permiten idear imágenes mentales, dibujar y detectar detalles, además de un sentido personal por la estética. En esta inteligencia encontramos pintores, fotógrafos, diseñadores, publicistas, arquitectos, creativos… 
+\newpage
+\subsection{Inteligencia musical}
+La música es un arte universal. Todas las culturas tienen algún tipo de música, más o menos elaborada, lo cual lleva a Gardner y sus colaboradores a entender que existe una inteligencia musical latente en todas las personas.
+\newline
+Algunas zonas del cerebro ejecutan funciones vinculadas \textbf{con la interpretación y composición de música.} Como cualquier otro tipo de inteligencia, puede entrenarse y perfeccionarse.
+No hace falta decir que los más aventajados en esta clase de inteligencia son aquellos capaces de tocar instrumentos, leer y componer piezas musicales con facilidad.
+\newline
+\subsection{Inteligencia corporal y cinestésica}
+\textbf{Las habilidades corporales y motrices} que se requieren para manejar herramientas o para expresar ciertas emociones representan un aspecto esencial en el desarrollo de todas las culturas de la historia. La habilidad para usar herramientas es considerada inteligencia corporal cinestésica. Por otra parte, hay un seguido de capacidades más intuitivas como el uso de la inteligencia corporal para expresar sentimientos mediante el cuerpo. Son especialmente brillantes en este tipo de inteligencia bailarines, actores, deportistas, y hasta cirujanos y creadores plásticos, pues todos ellos tienen que emplear de manera racional sus habilidades físicas.
+\newline
+\subsection{Inteligencia intrapersonal}
+La inteligencia intrapersonal refiere a aquella inteligencia que nos faculta para comprender y controlar el ámbito interno de uno mismo en lo que se refiere a la regulación de las emociones y del foco atencional.
+\newline
+Las personas que destacan en la inteligencia intrapersonal \textbf{son capaces de acceder a sus sentimientos y emociones y reflexionar sobre estos elementos.} Según Gardner, esta inteligencia también permite ahondar en su introspección y entender las razones por las cuales uno es de la manera que es.
+\newline
+Por otro lado, tanto saber distanciarse de la situación para desdramatizar eventos con un impacto emocional negativo como saber identificar los propios sesgos de pensamiento son herramientas muy útiles tanto para mantener un buen nivel de bienestar como para rendir mejor en diferentes aspectos de la vida.
+\newpage
+\subsection{Inteligencia interpersonal}
+La inteligencia interpersonal nos faculta para poder advertir cosas de las otras personas más allá de lo que nuestros sentidos logran captar. Se trata de una inteligencia que permite interpretar las palabras o gestos, o los objetivos y metas de cada discurso. Más allá del contínuum Introversión-Extraversión, la inteligencia interpersonal evalúa la capacidad para empatizar con las demás personas.
+\newline
+Es una inteligencia muy valiosa para las personas que trabajan con grupos numerosos. \textbf{Su habilidad para detectar y entender las circunstancias y problemas de los demás} resulta más sencillo si se posee (y se desarrolla) la inteligencia interpersonal. Profesores, psicólogos, terapeutas, abogados y pedagogos son perfiles que suelen puntuar muy alto en este tipo de inteligencia descrita en la Teoría de las Inteligencias Múltiples
+\newline
+\subsection{Inteligencia naturalista}
+Según Gardner, la inteligencia naturalista \textbf{permite detectar, diferenciar y categorizar los aspectos vinculados al entorno}, como por ejemplo las especies animales y vegetales o fenómenos relacionados con el clima, la geografía o los fenómenos de la naturaleza.
+\newline
+Esta clase de inteligencia fue añadida posteriormente al estudio original sobre las Inteligencias Múltiples de Gardner, concretamente en el año 1995. Gardner consideró necesario incluir esta categoría por tratarse de una de las inteligencias esenciales para la supervivencia del ser humano (o cualquier otra especie) y que ha redundado en la evolución.
+\newline
+Hay que señalar que, aunque para Gardner este tipo de inteligencia se desarrolló para facilitar el uso creativo de los recursos que nos brinda la naturaleza, actualmente su uso no solo se limita a los entornos en los que no hay construcciones humanas, sino que estos últimos también podrían ser "explorados" de la misma forma.
+\end{document}
